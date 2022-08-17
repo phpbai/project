@@ -1,5 +1,5 @@
 {
-    "name": "z/phpbai",
+    "name": "phpbai/project",
     "type": "library",
     "require": {
         "php": ">=7.1.0"
