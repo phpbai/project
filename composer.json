@@ -16,5 +16,6 @@
             "email": "17612951952@163.com"
         }
     ],
+    "license": "MIT",
     "minimum-stability": "dev"
 }
