@@ -14,7 +14,8 @@ class ArrayTools
      * @param $key
      * @return mixed
      */
-    public function assocUnique($arr, $key) {
+    public function assocUnique($arr, $key)
+    {
         $tmp_arr = array();
         foreach ($arr as $k => $v) {
             if (in_array($v[$key], $tmp_arr)) {//搜索$v[$key]是否在$tmp_arr数组中存在，若存在返回true
@@ -33,7 +34,8 @@ class ArrayTools
      * @param $key (要排序的键)
      * @return array {排序后的数据}
      */
-    public function assocSort($arr,$key,$sort = SORT_DESC){
+    public function assocSort($arr,$key,$sort = SORT_DESC)
+    {
         $result = array_column($arr,$key);
         array_multisort($result,$sort,$arr);
         return $arr;
